@@ -96,7 +96,7 @@ const ContentWrapper = styled.div<{ chainId: NetworkAlertChains; darkMode: boole
   flex-direction: row;
   overflow: hidden;
   position: relative;
-  width: 100%;
+  width: 180%;
 
   :before {
     background-image: url(${({ logoUrl }) => logoUrl});
